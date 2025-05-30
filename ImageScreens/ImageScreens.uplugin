@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "ImageScreens",
+	"Description": "Screens showing images or slideshows downloaded from an URL.",
+	"Category": "Modding",
+	"CreatedBy": "Michal Řeháček",
+	"CreatedByURL": "https://ficsit.app/user/9tZ7eA1WsMK7bT",
+	"DocsURL": "https://github.com/michalrehacek/SatisfactoryMods/blob/main/ImageScreens/README.md",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/michalrehacek/SatisfactoryMods/issues",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.11.1"
+		}
+	],
+	"SemVersion": "1.0.0",
+	"GameVersion": ">=416835",
+	"Modules": [
+		{
+			"Name": "ImageScreens",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"LocalizationTargets": [
+		{
+			"Name": "ImageScreens",
+			"LoadingPolicy": "Always"
+		}
+	]
+}

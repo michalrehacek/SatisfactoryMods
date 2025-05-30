@@ -1,0 +1,336 @@
+{
+	"FormatVersion": 2,
+	"Namespace": "",
+	"Children": [
+		{
+			"Source":
+			{
+				"Text": "Cancel"
+			},
+			"Translation":
+			{
+				"Text": "Storno"
+			},
+			"Key": "ECDDBF8843A7FB02DF3CD5AA7F3B083B"
+		},
+		{
+			"Source":
+			{
+				"Text": "Cancel changes"
+			},
+			"Translation":
+			{
+				"Text": "Zrušit změny"
+			},
+			"Key": "C80951EC4908D4BE4C95BAB2EF8EC770"
+		},
+		{
+			"Source":
+			{
+				"Text": "Configuration of slideshows"
+			},
+			"Translation":
+			{
+				"Text": "Parametry Sekvence"
+			},
+			"Key": "38EE765C4008637225C3BC8979D4DF45"
+		},
+		{
+			"Source":
+			{
+				"Text": "Configuration of the Image Screens mod"
+			},
+			"Translation":
+			{
+				"Text": "Konfigurace modu Obrazovky"
+			},
+			"Key": "EF4A424C47519CFBFDEACF859013E7B7"
+		},
+		{
+			"Source":
+			{
+				"Text": "Configuration of the Image Screens mod."
+			},
+			"Translation":
+			{
+				"Text": "Konfigurace modu Obrazovky."
+			},
+			"Key": "720A351E415CCDB783D056B09DCEF2C3"
+		},
+		{
+			"Source":
+			{
+				"Text": "Confirm changes"
+			},
+			"Translation":
+			{
+				"Text": "Potvrdit změny"
+			},
+			"Key": "278DAE3546A9675E3A3496BA1A03EE31"
+		},
+		{
+			"Source":
+			{
+				"Text": "Error:"
+			},
+			"Translation":
+			{
+				"Text": "Chyba:"
+			},
+			"Key": "AA2A779A47969A7D41C95AA275F88503"
+		},
+		{
+			"Source":
+			{
+				"Text": "Image Screens"
+			},
+			"Translation":
+			{
+				"Text": "Obrazovky"
+			},
+			"Key": "004C2DCB4B9A7232FD23E8800F58D7EA"
+		},
+		{
+			"Source":
+			{
+				"Text": "Image Screens mod"
+			},
+			"Translation":
+			{
+				"Text": "Mod Obrazovky"
+			},
+			"Key": "F766C04A4DB2E94A66D4718171A848B6"
+		},
+		{
+			"Source":
+			{
+				"Text": "Image URL"
+			},
+			"Translation":
+			{
+				"Text": "Internetová adresa obrázku"
+			},
+			"Key": "18C6429746A3470B044C93A6CCD32B46"
+		},
+		{
+			"Source":
+			{
+				"Text": "Landscape screen 12x8 m\r\n\r\nThe screen can show either an image or a slideshow downloaded from a web server."
+			},
+			"Translation":
+			{
+				"Text": "Obrazovka na šířku 12x8.\r\n\r\nObrazovka může ukázat buď obrázek nebo prezentaci sekvence obrázků z internetu."
+			},
+			"Key": "AD2B3F574264811126DA8997B2567D55"
+		},
+		{
+			"Source":
+			{
+				"Text": "No error occurred."
+			},
+			"Translation":
+			{
+				"Text": "Žádná chyba nenastala."
+			},
+			"Key": "737E53C64333270AE82E3D806E27D747"
+		},
+		{
+			"Source":
+			{
+				"Text": "OK"
+			},
+			"Translation":
+			{
+				"Text": "OK"
+			},
+			"Key": "D0ED00FE4D6371B2E243EA83807A9AE1"
+		},
+		{
+			"Source":
+			{
+				"Text": "Paste"
+			},
+			"Translation":
+			{
+				"Text": "Vložit"
+			},
+			"Key": "E1563774486E348018204BB1E9E6D7BC"
+		},
+		{
+			"Source":
+			{
+				"Text": "Paste from clipboard and confirm"
+			},
+			"Translation":
+			{
+				"Text": "Vložit ze schránky a potvrdit"
+			},
+			"Key": "FF20EF754EE949F6546ABE89B7812815"
+		},
+		{
+			"Source":
+			{
+				"Text": "Portrait screen 8x12 m.\r\n\r\nThe screen can show either an image or a slideshow downloaded from a web server."
+			},
+			"Translation":
+			{
+				"Text": "Obrazovka na výšku 8x12 m.\r\n\r\nObrazovka může ukázat buď obrázek nebo prezentaci sekvence obrázků z internetu."
+			},
+			"Key": "BF1624AB49F49335D27586B94AF1F611"
+		},
+		{
+			"Source":
+			{
+				"Text": "Screen (12x8 m)"
+			},
+			"Translation":
+			{
+				"Text": "Obrazovka (12x8 m)"
+			},
+			"Key": "7BAA45A243A139C94B47BCB34940BD2D"
+		},
+		{
+			"Source":
+			{
+				"Text": "Screen (8x12 m)"
+			},
+			"Translation":
+			{
+				"Text": "Obrazovka (8x12 m)"
+			},
+			"Key": "1D0E18C24099595893D0FD94E026268B"
+		},
+		{
+			"Source":
+			{
+				"Text": "Screen 12x8 m"
+			},
+			"Translation":
+			{
+				"Text": "Obrazovka 12x8m"
+			},
+			"Key": "D08D322845D3B51EFF3CAFA9A4E01BE0"
+		},
+		{
+			"Source":
+			{
+				"Text": "Screen 8x12 m"
+			},
+			"Translation":
+			{
+				"Text": "Obrazovka 8x12 m"
+			},
+			"Key": "D92B3F1F471C1B66F6B91CAF291EB307"
+		},
+		{
+			"Source":
+			{
+				"Text": "Screen image URL"
+			},
+			"Translation":
+			{
+				"Text": "Internetová adresa obrázku"
+			},
+			"Key": "04F6299C44C747E921754FA2F835543D"
+		},
+		{
+			"Source":
+			{
+				"Text": "Screens"
+			},
+			"Translation":
+			{
+				"Text": "Obrazovky"
+			},
+			"Key": "45D2FFD44101B96AFB555A9C2B0058C0"
+		},
+		{
+			"Source":
+			{
+				"Text": "Screens of different sizes showing pictures or slideshow downloaded from an URL."
+			},
+			"Translation":
+			{
+				"Text": "Různé veliké obrazovky ukazující obrázky nebo prezentaci stažené z internetu."
+			},
+			"Key": "E3A9AF79467064745FCF5AAEB204317F"
+		},
+		{
+			"Source":
+			{
+				"Text": "Seconds between images"
+			},
+			"Translation":
+			{
+				"Text": "Sekund mezi snímky"
+			},
+			"Key": "ED965E5440F6325C5E80A1B1A3433C8C"
+		},
+		{
+			"Source":
+			{
+				"Text": "Shuffle image order"
+			},
+			"Translation":
+			{
+				"Text": "Proházet pořadí"
+			},
+			"Key": "5DB90FE247B495A065EFB4985405BB14"
+		},
+		{
+			"Source":
+			{
+				"Text": "Slideshow"
+			},
+			"Translation":
+			{
+				"Text": "Prezentace"
+			},
+			"Key": "F97B735647E2B5CB954AEF89134D63BD"
+		},
+		{
+			"Source":
+			{
+				"Text": "Slideshow"
+			},
+			"Translation":
+			{
+				"Text": "Prezentace"
+			},
+			"Key": "41EE09D14B7E968E5D8FD1BB0760C2E8"
+		},
+		{
+			"Source":
+			{
+				"Text": "Time, in seconds, between images in a slideshow."
+			},
+			"Translation":
+			{
+				"Text": "Čas v sekundách mezi snímky prezentace."
+			},
+			"Key": "CA73BE5C49A712090D10958EFD16B1F8"
+		},
+		{
+			"Source":
+			{
+				"Text": "URL of a picture or a text file that contains list of files"
+			},
+			"Translation":
+			{
+				"Text": "Internetová adresa obrázku nebo textového souboru se seznam obrázků pro prezentaci"
+			},
+			"Key": "A3E50F014F655A8C69D013B4C293BCF3"
+		},
+		{
+			"Source":
+			{
+				"Text": "Will images in a slideshow be shown in randomized order?"
+			},
+			"Translation":
+			{
+				"Text": "Budou obrázky v prezentaci ukázány v náhodném pořadí?"
+			},
+			"Key": "8DB727B24D23B6BF25B7D892366531CE"
+		}
+	]
+}

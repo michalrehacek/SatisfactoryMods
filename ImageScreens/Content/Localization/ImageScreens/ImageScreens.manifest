@@ -1,0 +1,358 @@
+{
+	"FormatVersion": 1,
+	"Namespace": "",
+	"Children": [
+		{
+			"Source":
+			{
+				"Text": "Cancel"
+			},
+			"Keys": [
+				{
+					"Key": "ECDDBF8843A7FB02DF3CD5AA7F3B083B",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.TextCancel.Text"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Cancel changes"
+			},
+			"Keys": [
+				{
+					"Key": "C80951EC4908D4BE4C95BAB2EF8EC770",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.Button_Cancel.ToolTipText"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Configuration of slideshows"
+			},
+			"Keys": [
+				{
+					"Key": "38EE765C4008637225C3BC8979D4DF45",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertySection_C_0.Tooltip"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Configuration of the Image Screens mod"
+			},
+			"Keys": [
+				{
+					"Key": "EF4A424C47519CFBFDEACF859013E7B7",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C:BP_ConfigPropertySection_C_0.Tooltip"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Configuration of the Image Screens mod."
+			},
+			"Keys": [
+				{
+					"Key": "720A351E415CCDB783D056B09DCEF2C3",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C.Description"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Confirm changes"
+			},
+			"Keys": [
+				{
+					"Key": "278DAE3546A9675E3A3496BA1A03EE31",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.Button_OK.ToolTipText"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Error:"
+			},
+			"Keys": [
+				{
+					"Key": "AA2A779A47969A7D41C95AA275F88503",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.Label_Error.Text"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Image Screens"
+			},
+			"Keys": [
+				{
+					"Key": "004C2DCB4B9A7232FD23E8800F58D7EA",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C:BP_ConfigPropertySection_C_0.DisplayName"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Image Screens mod"
+			},
+			"Keys": [
+				{
+					"Key": "F766C04A4DB2E94A66D4718171A848B6",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C.DisplayName"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Image URL"
+			},
+			"Keys": [
+				{
+					"Key": "18C6429746A3470B044C93A6CCD32B46",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.EditBox.HintText"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Landscape screen 12x8 m\r\n\r\nThe screen can show either an image or a slideshow downloaded from a web server."
+			},
+			"Keys": [
+				{
+					"Key": "AD2B3F574264811126DA8997B2567D55",
+					"Path": "/ImageScreens/Buildable/Build_Screen_L_12_08.Default__Build_Screen_L_12_08_C.mDescription"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "No error occurred."
+			},
+			"Keys": [
+				{
+					"Key": "737E53C64333270AE82E3D806E27D747",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.Text_Error.Text"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "OK"
+			},
+			"Keys": [
+				{
+					"Key": "D0ED00FE4D6371B2E243EA83807A9AE1",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.TextOK.Text"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Paste"
+			},
+			"Keys": [
+				{
+					"Key": "E1563774486E348018204BB1E9E6D7BC",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.TextPaste.Text"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Paste from clipboard and confirm"
+			},
+			"Keys": [
+				{
+					"Key": "FF20EF754EE949F6546ABE89B7812815",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.Button_Paste.ToolTipText"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Portrait screen 8x12 m.\r\n\r\nThe screen can show either an image or a slideshow downloaded from a web server."
+			},
+			"Keys": [
+				{
+					"Key": "BF1624AB49F49335D27586B94AF1F611",
+					"Path": "/ImageScreens/Buildable/Build_Screen_P_08_12.Default__Build_Screen_P_08_12_C.mDescription"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Screen (12x8 m)"
+			},
+			"Keys": [
+				{
+					"Key": "7BAA45A243A139C94B47BCB34940BD2D",
+					"Path": "/ImageScreens/Buildable/Build_Screen_L_12_08.Default__Build_Screen_L_12_08_C.mDisplayName"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Screen (8x12 m)"
+			},
+			"Keys": [
+				{
+					"Key": "1D0E18C24099595893D0FD94E026268B",
+					"Path": "/ImageScreens/Buildable/Build_Screen_P_08_12.Default__Build_Screen_P_08_12_C.mDisplayName"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Screen 12x8 m"
+			},
+			"Keys": [
+				{
+					"Key": "D08D322845D3B51EFF3CAFA9A4E01BE0",
+					"Path": "/ImageScreens/Recipes/Recipe_Screen_L_12_08.Default__Recipe_Screen_L_12_08_C.mDisplayName"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Screen 8x12 m"
+			},
+			"Keys": [
+				{
+					"Key": "D92B3F1F471C1B66F6B91CAF291EB307",
+					"Path": "/ImageScreens/Recipes/Recipe_Screen_P_08_12.Default__Recipe_Screen_P_08_12_C.mDisplayName"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Screen image URL"
+			},
+			"Keys": [
+				{
+					"Key": "04F6299C44C747E921754FA2F835543D",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.Widget_Window_DarkMode.mTitleText"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Screens"
+			},
+			"Keys": [
+				{
+					"Key": "45D2FFD44101B96AFB555A9C2B0058C0",
+					"Path": "/ImageScreens/Schematics/Schematic_Screens.Default__Schematic_Screens_C.mDisplayName"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Screens of different sizes showing pictures or slideshow downloaded from an URL."
+			},
+			"Keys": [
+				{
+					"Key": "E3A9AF79467064745FCF5AAEB204317F",
+					"Path": "/ImageScreens/Schematics/Schematic_Screens.Default__Schematic_Screens_C.mDescription"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Seconds between images"
+			},
+			"Keys": [
+				{
+					"Key": "ED965E5440F6325C5E80A1B1A3433C8C",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertySection_C_0.BP_ConfigPropertyInteger_C_0.DisplayName"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Shuffle image order"
+			},
+			"Keys": [
+				{
+					"Key": "5DB90FE247B495A065EFB4985405BB14",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertySection_C_0.BP_ConfigPropertyBool_C_0.DisplayName"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Slideshow"
+			},
+			"Keys": [
+				{
+					"Key": "41EE09D14B7E968E5D8FD1BB0760C2E8",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertySection_C_0.DisplayName"
+				},
+				{
+					"Key": "F97B735647E2B5CB954AEF89134D63BD",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertySection_C_0.HeaderText"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Time, in seconds, between images in a slideshow."
+			},
+			"Keys": [
+				{
+					"Key": "CA73BE5C49A712090D10958EFD16B1F8",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertySection_C_0.BP_ConfigPropertyInteger_C_0.Tooltip"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "URL of a picture or a text file that contains list of files"
+			},
+			"Keys": [
+				{
+					"Key": "A3E50F014F655A8C69D013B4C293BCF3",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.EditBox.ToolTipText"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Will images in a slideshow be shown in randomized order?"
+			},
+			"Keys": [
+				{
+					"Key": "8DB727B24D23B6BF25B7D892366531CE",
+					"Path": "/ImageScreens/Config/ImageScreens_Config.Default__ImageScreens_Config_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertySection_C_0.BP_ConfigPropertyBool_C_0.Tooltip"
+				}
+			]
+		}
+	]
+}
