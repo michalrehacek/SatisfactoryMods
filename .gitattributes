@@ -1,0 +1,21 @@
+# Git control files
+.gitattributes	text=auto
+.gitignore	text=auto
+
+# Text files
+LICENSE	text=auto
+*.md	text=auto
+*.h	text=auto
+*.cpp	text=auto
+*.cs	text=auto
+
+# Unreal files
+*.uplugin	text eol=crlf
+
+# Binary files
+*.blend	binary
+*.fbx	binary
+*.jpg	binary
+*.png	binary
+*.xcf	binary
+*.uasset	binary
