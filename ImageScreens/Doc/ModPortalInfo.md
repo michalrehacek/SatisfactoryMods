@@ -33,6 +33,29 @@ The screen only supports images or slideshows downloaded from a web server.
 Displaying files from your computer is not supported. Other mods exist that will do that.
 
 
+## Copy and paste
+
+The image screens support Satisfactory's copy and paste of building properties.
+Press Ctrl+C to copy screen properties and Ctrl+V to paste the same image to a different screen.
+
+When you sample an image screen building with the middle mouse button
+and place its copy, it will be displaying the same image or slideshow.
+
+
+## Mass replacement
+
+Mass replacement allows to perform search and replace on URLs in all screens at once.
+The UI can be opened using the Mass replace... button in the screen interact UI.
+
+The dialog box expects a set of rules, one per line, in the format
+```
+FROM => TO
+TEXT => SOMETHING-ELSE
+```
+
+This is useful to fix URLs e.g. after migrating the images to a different server.
+
+
 ## Network activity
 
 The purpose of this mod is to allow displaying images downloaded from the internet.

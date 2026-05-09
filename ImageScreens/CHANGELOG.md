@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 1.2.0 (2026-05-10)
+
+Mass replacement function.
+- Added function to mass replace substrings in URLs in all existing screens.
+- Fixed an issue where an error text wouldn't clear on clients in MP.
+
+
 ## 1.1.0 (2025-10-05)
 
 Logging of used images.

@@ -44,6 +44,20 @@ When you sample an image screen building with the middle mouse button
 and place its copy, it will be displaying the same image or slideshow.
 
 
+## Mass replacement
+
+Mass replacement allows to perform search and replace on URLs in all screens at once.
+The UI can be opened using the Mass replace... button in the screen interact UI.
+
+The dialog box expects a set of rules, one per line, in the format
+```
+FROM => TO
+TEXT => SOMETHING-ELSE
+```
+
+This is useful to fix URLs e.g. after migrating the images to a different server.
+
+
 ## Mod configuration
 
 The mod supports a few configuration properties.
