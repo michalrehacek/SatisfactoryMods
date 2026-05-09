@@ -57,8 +57,82 @@ bool UIS_ImageScreenUtils::IsImageSpec( const FIS_ImageScreenSpec & Spec )
 
 
 /**
-* Reset the structure to clean all previous data.
-*/
+ * Parse a user-entered text into an array of replacements.
+ *
+ * The text should contain one replacement rule per line.
+ * Each line should be in the form
+ * FROM => TO
+ */
+FIS_Replacement UIS_ImageScreenUtils::ParseReplacement( const FString & Text )
+{
+	// Split the input text into separate lines.
+	TArray< FString > Lines;
+	Text.ParseIntoArrayLines( Lines );
+
+	// Parse each line into a single rule.
+	FIS_Replacement Replacement;
+	for ( FString Line : Lines )
+	{
+		// Trim the line completely.
+		Line.TrimStartAndEndInline();
+		if ( Line.IsEmpty() )
+		{
+			continue;
+		}
+
+		// Split the line by the "=>" marker.
+		FString From, To;
+		bool found = Line.Split( TEXT("=>"), &From, &To);
+		if ( ! found )
+		{
+			UE_LOG( LogImageScreens, Verbose, TEXT( "Replacement parsing: Line cannot be split: \"%s\"" ), *Line );
+			continue;
+		}
+		From.TrimStartAndEndInline();
+		To.TrimStartAndEndInline();
+		UE_LOG( LogImageScreens, Verbose, TEXT( "Replacement parsing: Created new rule: \"%s\" => \"%s\"" ), *From, *To );
+
+		// Create a replacement rule.
+		FIS_ReplaceRule Rule;
+		Rule.ReplaceFrom = From;
+		Rule.ReplaceTo = To;
+		Replacement.Rules.Add( Rule );
+	}
+	return Replacement;
+}
+
+
+/**
+ * Apply the replacement rule to the screen specification.
+ *
+ * Return true if the spec was modified in any way.
+ */
+bool UIS_ImageScreenUtils::ApplyReplaceRule( const FIS_ReplaceRule & Rule, FIS_ImageScreenSpec & Spec )
+{
+	int changedCount = Spec.URL.ReplaceInline( *Rule.ReplaceFrom, *Rule.ReplaceTo, ESearchCase::CaseSensitive );
+	return changedCount > 0;
+}
+
+
+/**
+ * Apply the replacement to the screen specification.
+ *
+ * Return true if the spec was modified in any way.
+ */
+bool UIS_ImageScreenUtils::ApplyReplacement( const FIS_Replacement & Replacement, FIS_ImageScreenSpec & Spec )
+{
+	bool changed = false;
+	for ( const FIS_ReplaceRule & Replace : Replacement.Rules )
+	{
+		changed |= ApplyReplaceRule( Replace, Spec );
+	}
+	return changed;
+}
+
+
+/**
+ * Reset the structure to clean all previous data.
+ */
 void UIS_ImageScreenUtils::ResetJoinData( FIS_JoinData & JoinData )
 {
 	JoinData.ServerError = FText::GetEmpty();

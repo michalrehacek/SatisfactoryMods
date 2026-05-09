@@ -5,6 +5,17 @@
 		{
 			"Source":
 			{
+				"Text": "Add one rule per line.\r\nEach rule should be in the form FROM => TO.\r\nThe replacement will be done on all existing screens."
+			},
+			"Translation":
+			{
+				"Text": "Přidejte jedno pravidlo na řádek.\r\nKaždé pravidlo musí být ve formátu STARÝ => NOVÝ.\r\nNahrazení bude provedeno na všech existujících obrazovkách."
+			},
+			"Key": "593D701945897948D168998343949347"
+		},
+		{
+			"Source":
+			{
 				"Text": "Cancel"
 			},
 			"Translation":
@@ -126,6 +137,17 @@
 		{
 			"Source":
 			{
+				"Text": "Mass replace..."
+			},
+			"Translation":
+			{
+				"Text": "Hromadně nahradit..."
+			},
+			"Key": "005B0BA94D5B6BC797B2B7B2EBA3A373"
+		},
+		{
+			"Source":
+			{
 				"Text": "No error occurred."
 			},
 			"Translation":
@@ -177,6 +199,17 @@
 				"Text": "Obrazovka na výšku 8x12 m.\r\n\r\nObrazovka může ukázat buď obrázek nebo prezentaci sekvence obrázků z internetu."
 			},
 			"Key": "BF1624AB49F49335D27586B94AF1F611"
+		},
+		{
+			"Source":
+			{
+				"Text": "Replace URL in all screens"
+			},
+			"Translation":
+			{
+				"Text": "Nahradit internetovou adresu na všech obrazovkách"
+			},
+			"Key": "51A50440443C6227CB57098E3160106A"
 		},
 		{
 			"Source":

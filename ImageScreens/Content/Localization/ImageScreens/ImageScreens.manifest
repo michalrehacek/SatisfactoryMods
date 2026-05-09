@@ -5,6 +5,18 @@
 		{
 			"Source":
 			{
+				"Text": "Add one rule per line.\r\nEach rule should be in the form FROM => TO.\r\nThe replacement will be done on all existing screens."
+			},
+			"Keys": [
+				{
+					"Key": "593D701945897948D168998343949347",
+					"Path": "/ImageScreens/UI/Widget_MassReplace.Widget_MassReplace_C:WidgetTree.EditBox.HintText"
+				}
+			]
+		},
+		{
+			"Source":
+			{
 				"Text": "Cancel"
 			},
 			"Keys": [
@@ -137,6 +149,18 @@
 		{
 			"Source":
 			{
+				"Text": "Mass replace..."
+			},
+			"Keys": [
+				{
+					"Key": "005B0BA94D5B6BC797B2B7B2EBA3A373",
+					"Path": "/ImageScreens/UI/Widget_ScreenURL.Widget_ScreenURL_C:WidgetTree.TextBlock_93.Text"
+				}
+			]
+		},
+		{
+			"Source":
+			{
 				"Text": "No error occurred."
 			},
 			"Keys": [
@@ -191,6 +215,18 @@
 				{
 					"Key": "BF1624AB49F49335D27586B94AF1F611",
 					"Path": "/ImageScreens/Buildable/Build_Screen_P_08_12.Default__Build_Screen_P_08_12_C.mDescription"
+				}
+			]
+		},
+		{
+			"Source":
+			{
+				"Text": "Replace URL in all screens"
+			},
+			"Keys": [
+				{
+					"Key": "51A50440443C6227CB57098E3160106A",
+					"Path": "/ImageScreens/UI/Widget_MassReplace.Widget_MassReplace_C:WidgetTree.Widget_Window_DarkMode.mTitleText"
 				}
 			]
 		},
