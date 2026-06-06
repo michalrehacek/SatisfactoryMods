@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.2.0",
+	"VersionName": "1.3.0",
 	"FriendlyName": "ImageScreens",
 	"Description": "Screens showing images or slideshows downloaded from an URL.",
 	"Category": "Modding",
@@ -18,11 +18,11 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.11.1"
+			"SemVersion": "^3.12.0"
 		}
 	],
-	"SemVersion": "1.2.0",
-	"GameVersion": ">=416835",
+	"SemVersion": "1.3.0",
+	"GameVersion": ">=491125",
 	"Modules": [
 		{
 			"Name": "ImageScreens",
@@ -33,7 +33,8 @@
 	"LocalizationTargets": [
 		{
 			"Name": "ImageScreens",
-			"LoadingPolicy": "Always"
+			"LoadingPolicy": "Always",
+			"ConfigGenerationPolicy": "Never"
 		}
 	]
 }

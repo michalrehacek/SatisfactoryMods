@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 1.3.0 (2026-06-07)
+
+Updated mod for Satisfactory 1.2.
+
+
 ## 1.2.0 (2026-05-10)
 
 Mass replacement function.
