@@ -90,6 +90,16 @@ void UImageScreens_DownloadIndex::RequestCompleted( FHttpResponsePtr Response, b
 	}
 
 	// Find the prefix of the URL, so that we can build an URL relative to the path where the index file was from.
+	// The index file can only contain paths on the server, because we can't allow
+	// the remote server to control which servers the game will access.
+	//
+	// We intentionally use primitive string concatenation here rather than Uri
+	// resolution. Uri resolution would allow an absolute URL in the index (e.g.
+	// "https://evil.example/...") to escape the original server and cause the game
+	// to make a request to an arbitrary host.
+	//
+	// Any such "weird" filename is therefore incorporated into the original URL
+	// and will fail rather than causing a request to another server.
 	FString URLPrefix = GetURLPrefix();
 
 	// Process each line.
